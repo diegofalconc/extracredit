@@ -12,7 +12,7 @@ include('./includes/header.php');
 
         Section 1.10.32 of "de Finibus Bonorum et M
     </blockquote>
-    <p class="center"><a href="">Here is my <strong>Extra Credit Link</strong> link to my Github account showing you my randImages function (index.php and config.php)</a></p>
+    <p class="center"><a href="https://github.com/diegofalconc/extracredit">Here is my <strong>Extra Credit Link</strong> link to my Github account showing you my randImages function (index.php and config.php)</a></p>
     <?php
     include('includes/footer.php');
     ?>
