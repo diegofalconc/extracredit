@@ -69,7 +69,7 @@ $photos[3] = 'photo4';
 $photos[4] = 'photo5';
 
 
-function randNum($photos){
+function randImages($photos){
 
     $i = rand(0, count($photos) -1);
     $selectedImages = './images/'.$photos[$i].'.png';
