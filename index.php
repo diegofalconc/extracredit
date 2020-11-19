@@ -4,15 +4,23 @@ include('./includes/header.php');
 ?>
 
 <div id="wrapper">
-    <h1 class="<?php echo $center ?>"><?php echo $mainHeadline ?></h1>
-   <?php echo randImages($photos) ?> 
 
-    <blockquote>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+<main>
+        <h1>
+            <?php echo $mainHeadline; ?>
+        </h1>
+        <?php include('includes/form.php');?>
+        <p class="center"><a href="https://github.com/diegofalconc/extracredit">Here is my <strong>Extra Credit Link</strong> link to my Github account showing you my randImages function (index.php and config.php)</a></p>
+</main>
 
-        Section 1.10.32 of "de Finibus Bonorum et M
-    </blockquote>
-    <p class="center"><a href="https://github.com/diegofalconc/extracredit">Here is my <strong>Extra Credit Link</strong> link to my Github account showing you my randImages function (index.php and config.php)</a></p>
-    <?php
-    include('includes/footer.php');
-    ?>
+<aside>
+    <h3>
+        This is my aside
+    </h3>
+
+</aside>
+
+
+<?php
+    include('includes/footer.php')
+?>
